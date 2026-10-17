@@ -1,5 +1,6 @@
 {
-  "expo": {
+    "expo": {
+    "scheme": "expo-router-async-route-retry",
     "name": "expo-router-async-route-retry",
     "slug": "expo-router-async-route-retry",
     "version": "1.0.0",
@@ -19,7 +20,8 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+        "favicon": "./assets/favicon.png",
+        "bundler": "metro"
     },
     "plugins": [
       "expo-router",
